@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <style>
+    /* Reset default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #141414;
+      color: #fff;
+      margin: 0;
+    }
+
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #000;
+    }
+
+    header img {
+      height: 40px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #8b0000;
+    }
+
+    main {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+    }
+
+    .hero {
+      height: 80vh;
+      background-color: #8b0000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 100px;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .subtitle {
+      margin-bottom: 30px;
+      font-size: 1.2em;
+    }
+
+    .join-button, .get-started-button {
+      background-color: #fff;
+      color: #8b0000;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 1em;
+      text-transform: uppercase;
+      display: block;
+      margin: 10px auto;
+    }
+
+    .join-button:hover, .get-started-button:hover {
+      background-color: #ccc;
+    }
+
+    .content {
+      padding: 20px 0;
+      color: #fff;
+    }
+
+    .email-input {
+      margin-bottom: 25px; /* Adjusted margin bottom */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .email-input input {
+      padding: 15px;
+      border: none;
+      border-radius: 25px;
+      margin-right: 10px;
+      width: 300px;
+      font-size: 1em;
+    }
+
+    .get-started-container {
+      text-align: center;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      background-color: #000;
+      color: #fff;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtKjG1TLr8l9pfA0XCRJbM6el4XrvuNqjDSg&usqp=CAU">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tv-shows">TV Shows</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#latest">Latest</a></li>
+        <!-- Add more navigation links as needed -->
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>The Biggest Indian Hits</h1>
+      <p class="subtitle">Ready to watch here from ₹149. Join today. Cancel anytime.</p>
+      <p>Ready to watch? Enter your email to create or restart your membership.</p>
+      <div class="email-input">
+        <input type="email" placeholder="Enter your email">
+      </div>
+      <div class="get-started-container">
+        <button class="get-started-button">Get Started</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Netflix Clone</p>
+  </footer>
+
+</body>
+</html>
